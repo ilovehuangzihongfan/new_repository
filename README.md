@@ -22,10 +22,11 @@
 	
 
 ## 仓库内容
-### Code，资源存储，代码资源，二进制，项目管理脚本，许可证等等
-### issues，使用时遇到的bug 或 进行提交，等待反馈
-### README，使用markdown语言编写，工程自述文件，开发进度，，版本更新， 使用介绍等等
-###LICENSE 许可证：
+* Code，资源存储，代码资源，二进制，项目管理脚本，许可证等等
+* issues，使用时遇到的bug 或 进行提交，等待反馈
+* README，使用markdown语言编写，工程自述文件，开发进度，，版本更新， 使用介绍等等
+* LICENSE 许可证：
+	
 	GPL2.0,3.0.Apahce 2.0，Mit，这些许可证，给使用者最大使用权限以及最少的限制
 ##Git软件，分布式版本控制系统
 	仓库管理软件，使用git管理私人代码或企业代码
@@ -37,16 +38,16 @@
 	2. git config -list   //查看git的配置文件修改或添加config配置项
 	3. 修改或添加config配置项
 
-	   git config --global user.name  "用户名" 
+	   	git config --global user.name  "用户名" 
 	  
-	   git config --global user.email "邮箱" 
+	   	git config --global user.email "邮箱" 
 	4. 创建本地秘文
 
-	   ssh-keygen -t rsa -C “注册邮箱”
+	   	ssh-keygen -t rsa -C “注册邮箱”
 
-	   rsa.pub复制密文，粘贴到settings->SSH key and GPG -> new ssh key ->粘贴    
+	   	rsa.pub复制密文，粘贴到settings->SSH key and GPG -> new ssh key ->粘贴    
 	5. 测试关联是否完成
-	   ssh -T git@github.com    # ssh远程登录
+	   	ssh -T git@github.com    # ssh远程登录
 2. 为目标仓库起别名，定位目标仓库，后续上传
 	1. git remote add orgin(别名) SSH地址(云端仓库地址)
 	2. git remote remove origin    #删除地址别名本地设备与云端仓库的交互逻辑
